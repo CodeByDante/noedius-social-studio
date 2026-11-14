@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T22:41:32.629738Z",
+  "updatedAt": "2026-11-14T23:05:30.845745Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
-      "status": "ok",
+      "status": "unavailable",
       "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei",
       "url": "https://www.youtube.com/watch?v=QGv0Rc5jXqw",
       "publishedAt": "2026-11-14T18:50:17+00:00",
       "source": "YouTube RSS",
-      "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
-      "stale": false,
-      "checkedAt": "2026-11-14T22:41:27.182018Z",
+      "message": "No se pudo actualizar. Se conserva la última publicación encontrada; revisa o pega el enlace actual.",
+      "stale": true,
+      "checkedAt": "2026-11-14T23:05:22.930715Z",
       "obtainedAt": "2026-11-14T22:41:27.538954Z"
     },
     "facebook": {
@@ -23,7 +23,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-14T22:41:27.182355Z"
+      "checkedAt": "2026-11-14T23:05:22.931145Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
@@ -34,8 +34,8 @@
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-14T22:41:27.182547Z",
-      "obtainedAt": "2026-11-14T22:41:28.820006Z"
+      "checkedAt": "2026-11-14T23:05:22.931499Z",
+      "obtainedAt": "2026-11-14T23:05:24.791196Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-14T22:41:27.183098Z"
+      "checkedAt": "2026-11-14T23:05:22.932572Z"
     }
   }
 }
