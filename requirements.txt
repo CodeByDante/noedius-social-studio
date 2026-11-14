@@ -1,0 +1,2 @@
+# Public metadata extraction only. No media files are downloaded.
+yt-dlp>=2025.10.22

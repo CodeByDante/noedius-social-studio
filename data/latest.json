@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-14T22:38:30.467897Z",
+  "platforms": {
+    "youtube": {
+      "profileUrl": "https://www.youtube.com/@Noedius",
+      "status": "ok",
+      "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei",
+      "url": "https://www.youtube.com/watch?v=QGv0Rc5jXqw",
+      "publishedAt": "2026-11-14T18:50:17+00:00",
+      "source": "YouTube RSS",
+      "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
+      "stale": false,
+      "checkedAt": "2026-11-14T22:38:13.620721Z",
+      "obtainedAt": "2026-11-14T22:38:25.304207Z"
+    },
+    "facebook": {
+      "profileUrl": "https://www.facebook.com/Noedius/reels/",
+      "status": "unavailable",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": "",
+      "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
+      "stale": false,
+      "checkedAt": "2026-11-14T22:38:13.621337Z"
+    },
+    "tiktok": {
+      "profileUrl": "https://www.tiktok.com/@noediusx",
+      "status": "ok",
+      "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei #M...",
+      "url": "https://www.tiktok.com/@noediusx/video/7708101911051816214",
+      "publishedAt": "2026-11-14T18:52:15Z",
+      "source": "Metadatos públicos · yt-dlp",
+      "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
+      "stale": false,
+      "checkedAt": "2026-11-14T22:38:13.623054Z",
+      "obtainedAt": "2026-11-14T22:38:30.467576Z"
+    },
+    "instagram": {
+      "profileUrl": "https://www.instagram.com/noedius/",
+      "status": "unavailable",
+      "title": null,
+      "url": null,
+      "publishedAt": null,
+      "source": "",
+      "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
+      "stale": false,
+      "checkedAt": "2026-11-14T22:38:13.623467Z"
+    }
+  }
+}

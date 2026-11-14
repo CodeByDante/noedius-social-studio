@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f1">
+  <meta name="description" content="Prepara tus publicaciones de Noedius con el título y los enlaces de tus últimas publicaciones. Listas para copiar y compartir.">
+  <title>Noedius · Social Studio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip" href="#composer">Ir al generador</a>
+  <header class="topbar wrap">
+    <a class="brand" href="./" aria-label="Noedius Social Studio, inicio"><span class="brand-icon" aria-hidden="true">n<span>•</span></span><span>NOEDIUS<span class="brand-sub">SOCIAL STUDIO</span></span></a>
+    <nav aria-label="Principal"><a class="active" href="#composer">Generador</a><a href="#how-it-works">Cómo funciona</a><a href="https://github.com/CodeByDante/noedius-social-studio" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></nav>
+    <span class="workspace-label"><span class="dot"></span>Tu espacio creativo</span>
+  </header>
+
+  <main class="wrap">
+    <section class="intro" aria-labelledby="page-title">
+      <div><p class="eyebrow"><span class="little-line"></span> MENOS COPIAR ENLACES. MÁS CREAR.</p><h1 id="page-title">Un video.<br>Todos tus <span class="serif">canales.</span></h1><p class="lead">Tu última publicación, en un solo mensaje.<br>Prepara el texto. Cópialo. Compártelo.</p></div>
+      <div class="intro-art" aria-hidden="true"><span class="art-orbit orbit-one"></span><span class="art-orbit orbit-two"></span><div class="art-core">n<span>•</span></div><span class="art-badge badge-yt">YouTube</span><span class="art-badge badge-fb">Facebook</span><span class="art-badge badge-tt">TikTok</span><span class="art-badge badge-ig">Instagram</span><span class="art-note">Una historia, en todas partes.</span></div>
+    </section>
+
+    <section class="syncbar" aria-label="Estado de actualización"><div class="sync-info"><span class="sync-symbol" aria-hidden="true">↻</span><div><strong id="sync-title">Cargando publicaciones…</strong><span id="sync-detail">Consultas automáticas cada hora con GitHub Actions.</span></div></div><button id="refresh" class="button small secondary" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7v5h-5M4 17v-5h5M6.1 7a7 7 0 0 1 11.5-1L20 9M4 15l2.4 3A7 7 0 0 0 18 17"/></svg>Recargar datos</button></section>
+
+    <div class="studio-grid" id="composer">
+      <section class="editor" aria-labelledby="editor-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / CONFIGURA</p><h2 id="editor-title">Arma tu publicación</h2></div><span class="save-label" id="save-status">Se guarda en este navegador</span></div>
+        <div class="panel compose-panel">
+          <div class="label-line"><label for="post-title">Título de tu video</label><span id="title-count">0/500</span></div>
+          <textarea id="post-title" rows="3" maxlength="500" placeholder="El título aparecerá aquí al detectar tu último video. También puedes escribirlo." aria-describedby="title-hint"></textarea>
+          <div class="title-tools"><p id="title-hint">Puedes editar el título antes de compartir.</p><button class="text-button" id="use-detected" type="button" disabled>Usar título detectado <span aria-hidden="true">↗</span></button></div>
+          <div class="field-row"><div><label for="title-source">Tomar el título de</label><select id="title-source"><option value="youtube">YouTube</option><option value="facebook">Facebook</option><option value="tiktok">TikTok</option><option value="instagram">Instagram</option></select></div><div><label for="emoji">Inicio del mensaje</label><select id="emoji"><option value="🔥">🔥 Fuego</option><option value="🎬">🎬 Nuevo video</option><option value="✨">✨ Destacado</option><option value="">Sin emoji</option></select></div></div>
+        </div>
+
+        <div class="networks-heading"><h3>Tus canales</h3><span id="network-count">4 seleccionados</span></div>
+        <fieldset class="link-mode"><legend>¿Qué enlaces quieres compartir?</legend><label><input type="radio" name="link-mode" value="latest" checked><span>Últimos videos</span></label><label><input type="radio" name="link-mode" value="profiles"><span>Perfiles del canal</span></label></fieldset>
+        <p class="mode-hint" id="mode-hint">Si una red no permite la consulta, se usará su perfil hasta que pegues el enlace del video.</p>
+        <div id="networks" class="networks"></div>
+
+        <div class="panel closing-panel"><label for="closing">El toque final</label><input id="closing" type="text" maxlength="300" value="¡Apóyame con tu like, comenta y comparte!"><p>La invitación que aparecerá al final del mensaje.</p></div>
+        <details class="settings"><summary>Configurar direcciones de mis canales <span aria-hidden="true">+</span></summary><div id="profile-settings" class="settings-body"></div><p class="settings-note">Los cambios de canal se guardan solo aquí. Para que la búsqueda automática use otros canales, edita <a href="https://github.com/CodeByDante/noedius-social-studio/edit/main/channels.json" target="_blank" rel="noopener noreferrer">channels.json en GitHub ↗</a>.</p><button id="reset" type="button" class="text-button">Restablecer los canales de Noedius</button></details>
+      </section>
+
+      <aside class="preview-column" aria-labelledby="preview-title">
+        <div class="section-heading"><div><p class="eyebrow">02 / COMPARTE</p><h2 id="preview-title">Listo para salir</h2></div><span class="live-label"><span class="dot"></span>Vista previa</span></div>
+        <div class="preview-shell"><div class="preview-toolbar"><div class="format-tabs" role="group" aria-label="Formato para copiar"><button type="button" data-format="text" aria-pressed="true">Texto</button><button type="button" data-format="whatsapp" aria-pressed="false">WhatsApp</button><button type="button" data-format="markdown" aria-pressed="false">Markdown</button></div><span class="toolbar-dots" aria-hidden="true">•••</span></div>
+          <div class="message-card"><div class="message-author"><span class="avatar" aria-hidden="true">n.</span><div><strong>Noedius</strong><span>Un nuevo video para ti</span></div><span class="message-time">Ahora</span></div><div id="preview" class="message-body"></div><pre id="code-preview" class="code-preview" hidden></pre><div class="message-footer"><span aria-hidden="true">↗</span> Creado para compartir</div></div>
+          <div class="copy-area"><p id="preview-note">Completa el título para copiar tu publicación.</p><button class="button primary" id="copy" type="button" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V4a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h4"/></svg>Copiar publicación <span aria-hidden="true">↗</span></button><div class="copy-extras"><button type="button" class="text-button" id="download" disabled>Descargar .txt</button><span id="character-count">0 caracteres</span></div></div>
+        </div>
+        <div class="note-box"><span class="note-icon" aria-hidden="true">i</span><p><strong>Tu voz, en todas tus redes.</strong><br>El título se toma de la red que elijas. Los videos de cada red pueden ser distintos: revísalos antes de compartir.</p></div>
+        <a class="workflow-link" id="workflow-link" href="https://github.com/CodeByDante/noedius-social-studio/actions/workflows/refresh.yml" target="_blank" rel="noopener noreferrer">Buscar publicaciones nuevas en GitHub <span aria-hidden="true">↗</span></a>
+        <p class="workflow-hint">Abre GitHub → Run workflow. Cuando termine, vuelve y pulsa «Recargar datos».</p>
+      </aside>
+    </div>
+
+    <section class="how-section" id="how-it-works" aria-labelledby="how-title"><div class="how-intro"><p class="eyebrow">TU FLUJO, MÁS SIMPLE</p><h2 id="how-title">Del último video<br>al próximo clic.</h2></div><ol class="steps"><li><span>01</span><div><h3>Detecta</h3><p>GitHub consulta los canales cada hora. Verás cuándo encontró el último video o si una red no permitió leerlo.</p></div></li><li><span>02</span><div><h3>Dale tu toque</h3><p>Edita el título, confirma los enlaces y elige el formato. Puedes completar cualquier video manualmente.</p></div></li><li><span>03</span><div><h3>Copia y comparte</h3><p>Un mensaje con tus cuatro redes. Texto simple, WhatsApp o Markdown, como prefieras.</p></div></li></ol></section>
+  </main>
+  <footer class="wrap footer"><span><strong>NOEDIUS</strong> / SOCIAL STUDIO</span><span>Menos tareas. Más historias.</span><a href="https://github.com/CodeByDante/noedius-social-studio" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript">Activa JavaScript para generar y copiar tu publicación.</p></noscript>
+</body>
+</html>
