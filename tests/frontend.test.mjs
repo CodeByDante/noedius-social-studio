@@ -5,7 +5,21 @@ import { readFile } from 'node:fs/promises';
 // The app is a browser ES module. A data URL lets Node test its pure helpers
 // without package-manager dependencies or emulating the document.
 const source = await readFile(new URL('../app.js', import.meta.url), 'utf8');
-const { safeUrl, isVideoUrl, sameProfile, formatPost } = await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+const { safeUrl, isVideoUrl, sameProfile, formatPost, selectLatestVideo } = await import(`data:text/javascript;base64,${Buffer.from(source).toString('base64')}`);
+
+test('latest video keeps the YouTube title and destination together and excludes stale, foreign or future data', () => {
+  const item={profileUrl:'https://www.youtube.com/@Noedius',status:'ok',stale:false,title:'Título completo',url:'https://www.youtube.com/watch?v=Abc_def-123',publishedAt:'2026-11-14T18:00:00Z'};
+  const now=Date.parse('2026-11-14T22:00:00Z');
+  assert.equal(selectLatestVideo({platforms:{youtube:item}},undefined,now).url,item.url);
+  for(const change of [{stale:true},{status:'unavailable'},{profileUrl:'https://www.youtube.com/@Other'},{url:'https://www.youtube.com/@Noedius'},{title:''},{publishedAt:'bad'},{publishedAt:'2030-01-01T00:00:00Z'}]){
+    assert.equal(selectLatestVideo({platforms:{youtube:{...item,...change}}},undefined,now),null);
+  }
+});
+
+test('latest video falls back to the newest valid network when YouTube is unavailable', () => {
+  const data={platforms:{youtube:{status:'unavailable'},tiktok:{status:'ok',stale:false,profileUrl:'https://www.tiktok.com/@noediusx',title:'Último TikTok',url:'https://www.tiktok.com/@noediusx/video/1234567890123456789',publishedAt:'2026-11-14T19:00:00Z'}}};
+  assert.equal(selectLatestVideo(data,undefined,Date.parse('2026-11-14T22:00:00Z')).title,'Último TikTok');
+});
 
 test('only HTTPS URLs at exact platform hosts can be shared', () => {
   assert.equal(safeUrl('https://www.youtube.com/@Noedius', 'youtube'), 'https://www.youtube.com/@Noedius');

@@ -1,86 +1,56 @@
-# Noedius · Social Studio
+# Noedius · Último video
 
-Generador de textos para compartir los videos de Noedius en **YouTube, Facebook, TikTok e Instagram**, publicado en GitHub Pages.
+Una pantalla negra, dos botones y el mensaje listo para copiar.
 
 **Web:** https://codebydante.github.io/noedius-social-studio/
 
-## Uso
+- **Actualizar:** consulta las fuentes públicas en ese momento mediante el servicio de lectura. Muestra el resultado real de cada red; una consulta bloqueada no se anuncia como actualización.
+- **Último video:** abre el último video verificado de YouTube; si no está disponible, usa la publicación válida más reciente de otra red. El título y el destino corresponden al mismo video.
+- **Clic en el mensaje:** copia el texto con los cuatro enlaces, los nombres en Markdown y el cierre «¡Apóyame con tu like, comenta y comparte!».
 
-1. Abre la web. Carga la última consulta de los canales.
-2. Revisa el título detectado. Puedes modificarlo o tomar el de otra red.
-3. Elige **Últimos videos** o **Perfiles del canal**. Cada red muestra si el enlace es detectado, manual, anterior o un perfil de respaldo.
-4. Completa los enlaces que falten desplegando «Ver detección o pegar enlace».
-5. Copia en **Texto**, **WhatsApp** o **Markdown**, o descarga el `.txt`.
+No hay formularios, ajustes ni credenciales en la página. Los canales de esta versión son los cuatro de Noedius.
 
-Los cambios del editor se guardan en tu navegador. Un enlace manual tiene prioridad hasta que lo borres. El texto nunca se publica automáticamente en tus redes.
+## Actualización
 
-## Consulta automática: alcance real
+GitHub Pages sirve la interfaz. El botón llama al servicio público de lectura configurado en `app-config.json`, que intenta consultar los cuatro perfiles en paralelo. La consulta puede tardar varios segundos. No ejecuta un workflow de GitHub ni espera a la próxima hora.
 
-GitHub Pages solo sirve HTML, CSS y JavaScript. **No ejecuta un servidor para consultar redes**. El workflow [Actualizar canales y publicar](https://github.com/CodeByDante/noedius-social-studio/actions/workflows/refresh.yml) consulta las fuentes desde GitHub Actions y publica `data/latest.json`:
+Las redes pueden bloquear consultas públicas o exigir acceso autorizado. En ese caso se conserva el enlace previo, marcado **Anterior**, o se usa el **Perfil** si no hay video verificable. **Anterior y Perfil no se anuncian como videos nuevos.** El título y el botón «Último video» priorizan YouTube para conservar el título completo.
 
-- Al subir cambios a `main`.
-- Cada hora, en el minuto 17. GitHub puede retrasar ejecuciones y desactivar programaciones de repositorios públicos inactivos.
-- Manualmente: **Actions → Actualizar canales y publicar → Run workflow**. Al terminar, pulsa «Recargar datos» en la web.
+Además, GitHub Actions conserva una consulta automática cada hora (minuto 17), al subir cambios y al ejecutar `Run workflow`. Es el respaldo que carga la página al abrirse. GitHub puede retrasar las ejecuciones. La página revisa el respaldo cada minuto mientras está visible, sin reemplazar una consulta en directo por otra más antigua.
 
-El botón «Recargar datos» lee los resultados publicados; no dispara una consulta nueva ni pide un token.
+**No recibe una notificación instantánea cuando publicas:** busca periódicamente y cuando pulsas Actualizar.
 
-**YouTube** usa RSS público o su API oficial si configuras una clave. Se ordenan las publicaciones por fecha, incluyendo Shorts y videos largos que devuelva el feed de subidas. **Facebook, Instagram y TikTok** intentan metadatos públicos y admiten sus APIs oficiales con credenciales opcionales. Esas redes suelen exigir inicio de sesión, permisos de aplicación o una cuenta profesional; **no se garantiza extraer automáticamente todos los perfiles sin conectar las APIs**. Un fallo se muestra como fallo: nunca se inventan título, fecha o enlace.
+## Fuentes y límites
 
-La app no asume que el último video de cada red sea la misma pieza. Revisa los enlaces antes de compartir. Un dato anterior conservado se marca explícitamente como anterior.
-
-Consulta la [configuración de APIs y limitaciones](scripts/README.md) para añadir secretos de las plataformas a GitHub Actions. **Nunca escribas tokens en HTML, JavaScript, `channels.json`, commits ni el navegador.** El token de GitHub no consulta tus redes sociales.
-
-## Canales incluidos
-
-| Red | Canal |
+| Plataforma | Perfil |
 | --- | --- |
 | YouTube | https://www.youtube.com/@Noedius |
 | Facebook | https://www.facebook.com/Noedius/reels/ |
 | TikTok | https://www.tiktok.com/@noediusx |
 | Instagram | https://www.instagram.com/noedius/ |
 
-Edita `channels.json` para cambiar los canales de la consulta automática. La configuración del editor es local; restablece sus preferencias si estabas utilizando otros canales.
+El servidor en directo usa únicamente datos públicos: RSS de YouTube y estructuras verificables de los perfiles. TikTok puede ocultar su lista de videos al servidor, aunque el colector horario con yt-dlp sí consiga leerla. Facebook e Instagram suelen requerir autorización. Los videos de cada red pueden ser piezas diferentes.
 
-## Ejemplo de salida
+El colector horario admite las [APIs oficiales opcionales](scripts/README.md). Esas credenciales solo se usan en GitHub Actions, nunca en el navegador ni en el servidor público de lectura.
 
-Este es solo un ejemplo de formato, no un video detectado:
+## Código
 
-```text
-🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei
+- `index.html`, `styles.css`, `app.js`: interfaz sin dependencias ni compilación.
+- `app-config.json`: dirección pública del servicio en directo, sin secretos.
+- `backend/worker/index.js`: fuente del servicio desplegado como Cloudflare Worker mediante Sites; solo GET y OPTIONS, canales fijos, CORS exacto y límites de tiempo.
+- `scripts/collect.py`: consulta horaria con RSS, yt-dlp y APIs opcionales.
+- `data/latest.json`: respaldo de metadatos; no contiene videos.
 
-YouTube:
-https://www.youtube.com/@Noedius
+El servidor y GitHub Pages tienen despliegues independientes. Actualizar `backend/` en GitHub conserva su fuente, pero no vuelve a desplegar el servicio automáticamente.
 
-Facebook:
-https://www.facebook.com/Noedius/reels/
-
-TikTok:
-https://www.tiktok.com/@noediusx
-
-Instagram:
-https://www.instagram.com/noedius/
-
-¡Apóyame con tu like, comenta y comparte!
-```
-
-## Desarrollo
-
-HTML/CSS/JS sin dependencias de frontend y sin compilación. Python 3.12+ para el colector. Node 20+ para las pruebas del formateador.
+## Desarrollo y pruebas
 
 ```sh
 python3 scripts/preview.py
-# Abre http://127.0.0.1:3000
-
+# http://127.0.0.1:3000
 npm test
+node --test backend/tests/worker.test.mjs
 python3 -m unittest discover -s tests -p 'test_collector.py' -v
-
-# Consulta real de metadatos (no descarga los videos)
-python3 -m pip install -r requirements.txt
-python3 scripts/collect.py --config channels.json --output data/latest.json
 ```
 
-## Publicación
-
-En **Settings → Pages**, el origen es **GitHub Actions**. El workflow sube solo HTML, CSS, JS, configuración pública, `assets/` y `data/`. Se excluyen herramientas, pruebas y credenciales. Los resultados se guardan en el repositorio para que puedan revisarse. La interfaz usa la zona horaria de Perú para las fechas.
-
-Las tipografías DM Sans y Manrope se cargan de Google Fonts; si no están disponibles se usa Arial.
+En GitHub, **Settings → Pages → Source: GitHub Actions**. El artefacto público incluye solo la interfaz, configuración pública, assets y metadatos. No incluye código de servidor, herramientas, pruebas ni secretos. El historial del repositorio conserva versiones previas.

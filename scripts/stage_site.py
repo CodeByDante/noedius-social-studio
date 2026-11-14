@@ -8,7 +8,7 @@ dest = root / '_site'
 if dest.exists():
     shutil.rmtree(dest)
 dest.mkdir()
-for name in ('index.html', 'channels.json'):
+for name in ('index.html', 'channels.json', 'app-config.json'):
     path = root / name
     if path.is_file():
         shutil.copy2(path, dest / name)
