@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T02:38:49.305128Z",
+  "updatedAt": "2026-11-15T10:50:32.178173Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
-      "status": "unavailable",
+      "status": "ok",
       "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei",
       "url": "https://www.youtube.com/watch?v=QGv0Rc5jXqw",
       "publishedAt": "2026-11-14T18:50:17+00:00",
       "source": "YouTube RSS",
-      "message": "No se pudo actualizar. Se conserva la última publicación encontrada; revisa o pega el enlace actual.",
-      "stale": true,
-      "checkedAt": "2026-11-15T02:38:41.211765Z",
-      "obtainedAt": "2026-11-14T22:41:27.538954Z"
+      "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
+      "stale": false,
+      "checkedAt": "2026-11-15T10:50:25.611304Z",
+      "obtainedAt": "2026-11-15T10:50:25.959867Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,7 +23,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T02:38:41.212213Z"
+      "checkedAt": "2026-11-15T10:50:25.611664Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
@@ -34,8 +34,8 @@
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-15T02:38:41.212435Z",
-      "obtainedAt": "2026-11-15T02:38:43.667389Z"
+      "checkedAt": "2026-11-15T10:50:25.612101Z",
+      "obtainedAt": "2026-11-15T10:50:26.897761Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T02:38:41.213207Z"
+      "checkedAt": "2026-11-15T10:50:25.612496Z"
     }
   }
 }
