@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T17:42:16.927521Z",
+  "updatedAt": "2026-11-15T22:48:30.940895Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei",
-      "url": "https://www.youtube.com/watch?v=QGv0Rc5jXqw",
-      "publishedAt": "2026-11-14T18:50:17+00:00",
+      "title": "🔥 ¡LA GUERRA FINAL de Mushoku Tensei! | Rudeus, Badigadi y Orsted",
+      "url": "https://www.youtube.com/watch?v=by2VGFwlVHI",
+      "publishedAt": "2026-11-15T22:47:49+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-15T17:42:08.913268Z",
-      "obtainedAt": "2026-11-15T17:42:09.410120Z"
+      "checkedAt": "2026-11-15T22:48:25.280713Z",
+      "obtainedAt": "2026-11-15T22:48:26.009226Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T17:42:08.913824Z"
+      "checkedAt": "2026-11-15T22:48:25.281283Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "🔥 ¿Por qué Eris golpeó brutalmente a su hijo Ars? | Mushoku Tensei #M...",
-      "url": "https://www.tiktok.com/@noediusx/video/7708101911051816214",
-      "publishedAt": "2026-11-14T18:52:15Z",
+      "title": "🔥 ¡LA GUERRA FINAL de Mushoku Tensei! | Rudeus, Badigadi y Orsted #M...",
+      "url": "https://www.tiktok.com/@noediusx/video/7708529131230612758",
+      "publishedAt": "2026-11-15T22:30:08Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-15T17:42:08.914076Z",
-      "obtainedAt": "2026-11-15T17:42:11.757442Z"
+      "checkedAt": "2026-11-15T22:48:25.282450Z",
+      "obtainedAt": "2026-11-15T22:48:27.014921Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T17:42:08.914449Z"
+      "checkedAt": "2026-11-15T22:48:25.282867Z"
     }
   }
 }
