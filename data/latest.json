@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-14T23:05:30.845745Z",
+  "updatedAt": "2026-11-15T02:38:49.305128Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
@@ -11,7 +11,7 @@
       "source": "YouTube RSS",
       "message": "No se pudo actualizar. Se conserva la última publicación encontrada; revisa o pega el enlace actual.",
       "stale": true,
-      "checkedAt": "2026-11-14T23:05:22.930715Z",
+      "checkedAt": "2026-11-15T02:38:41.211765Z",
       "obtainedAt": "2026-11-14T22:41:27.538954Z"
     },
     "facebook": {
@@ -23,7 +23,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-14T23:05:22.931145Z"
+      "checkedAt": "2026-11-15T02:38:41.212213Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
@@ -34,8 +34,8 @@
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-14T23:05:22.931499Z",
-      "obtainedAt": "2026-11-14T23:05:24.791196Z"
+      "checkedAt": "2026-11-15T02:38:41.212435Z",
+      "obtainedAt": "2026-11-15T02:38:43.667389Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-14T23:05:22.932572Z"
+      "checkedAt": "2026-11-15T02:38:41.213207Z"
     }
   }
 }
