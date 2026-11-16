@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T22:48:30.940895Z",
+  "updatedAt": "2026-11-16T02:43:38.663164Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
-      "status": "ok",
+      "status": "unavailable",
       "title": "🔥 ¡LA GUERRA FINAL de Mushoku Tensei! | Rudeus, Badigadi y Orsted",
       "url": "https://www.youtube.com/watch?v=by2VGFwlVHI",
       "publishedAt": "2026-11-15T22:47:49+00:00",
       "source": "YouTube RSS",
-      "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
-      "stale": false,
-      "checkedAt": "2026-11-15T22:48:25.280713Z",
+      "message": "No se pudo actualizar. Se conserva la última publicación encontrada; revisa o pega el enlace actual.",
+      "stale": true,
+      "checkedAt": "2026-11-16T02:43:31.778930Z",
       "obtainedAt": "2026-11-15T22:48:26.009226Z"
     },
     "facebook": {
@@ -23,7 +23,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T22:48:25.281283Z"
+      "checkedAt": "2026-11-16T02:43:31.779305Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
@@ -34,8 +34,8 @@
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-15T22:48:25.282450Z",
-      "obtainedAt": "2026-11-15T22:48:27.014921Z"
+      "checkedAt": "2026-11-16T02:43:31.779661Z",
+      "obtainedAt": "2026-11-16T02:43:33.434712Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-15T22:48:25.282867Z"
+      "checkedAt": "2026-11-16T02:43:31.780199Z"
     }
   }
 }
