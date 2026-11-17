@@ -104,7 +104,7 @@ function render() {
       line.append(node('strong','',link.name+':'),node('span','',link.url)); $('message').append(line);
     }
     $('message').append(node('p','closing',CLOSING));
-    clipboardText=formatPost(display.title,links,CLOSING,'markdown');
+    clipboardText=formatPost(display.title,links,CLOSING);
   } else {
     $('message').append(node('p','empty','Pulsa Actualizar para buscar el último video.'));
     clipboardText='';

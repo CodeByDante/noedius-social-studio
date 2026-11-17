@@ -6,7 +6,7 @@ Una pantalla negra, dos botones y el mensaje listo para copiar.
 
 - **Actualizar:** consulta las fuentes públicas en ese momento mediante el servicio de lectura. Muestra el resultado real de cada red; una consulta bloqueada no se anuncia como actualización.
 - **Último video:** abre el último video verificado de YouTube; si no está disponible, usa la publicación válida más reciente de otra red. El título y el destino corresponden al mismo video.
-- **Clic en el mensaje:** copia el texto con los cuatro enlaces, los nombres en Markdown y el cierre «¡Apóyame con tu like, comenta y comparte!».
+- **Copiar para Telegram.** Haz clic en la tarjeta del mensaje y pégalo en el chat. Se copia como texto limpio, con el título, los cuatro enlaces y el cierre «¡Apóyame con tu like, comenta y comparte!». Cada enlace queda debajo del nombre de su red.
 
 No hay formularios, ajustes ni credenciales en la página. Los canales de esta versión son los cuatro de Noedius.
 
