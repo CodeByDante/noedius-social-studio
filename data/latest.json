@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T23:07:37.808143Z",
+  "updatedAt": "2026-11-18T04:18:29.536492Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "🔥 ¡LA GUERRA FINAL de Mushoku Tensei! | Rudeus, Badigadi y Orsted",
-      "url": "https://www.youtube.com/watch?v=by2VGFwlVHI",
-      "publishedAt": "2026-11-15T22:47:49+00:00",
+      "title": "¿Cómo reaccionó ERIS al descubrir que RUDEUS era de OTRO MUNDO?",
+      "url": "https://www.youtube.com/watch?v=iMtXT74rOY4",
+      "publishedAt": "2026-11-18T01:12:00+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-17T23:07:31.927070Z",
-      "obtainedAt": "2026-11-17T23:07:32.274700Z"
+      "checkedAt": "2026-11-18T04:18:21.400727Z",
+      "obtainedAt": "2026-11-18T04:18:21.762745Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-17T23:07:31.927552Z"
+      "checkedAt": "2026-11-18T04:18:21.401149Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "🔥 ¡LA GUERRA FINAL de Mushoku Tensei! | Rudeus, Badigadi y Orsted #M...",
-      "url": "https://www.tiktok.com/@noediusx/video/7708529131230612758",
-      "publishedAt": "2026-11-15T22:30:08Z",
+      "title": "¿Cómo reaccionó ERIS al descubrir que RUDEUS era de OTRO MUNDO? | Mus...",
+      "url": "https://www.tiktok.com/@noediusx/video/7709312933901208854",
+      "publishedAt": "2026-11-18T01:12:01Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-17T23:07:31.927929Z",
-      "obtainedAt": "2026-11-17T23:07:33.768386Z"
+      "checkedAt": "2026-11-18T04:18:21.401858Z",
+      "obtainedAt": "2026-11-18T04:18:24.616725Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-17T23:07:31.928487Z"
+      "checkedAt": "2026-11-18T04:18:21.402175Z"
     }
   }
 }
