@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T17:29:38.712415Z",
+  "updatedAt": "2026-11-21T23:13:40.524385Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "¡Los padres de ROXY descubren el secreto de LARA! | Mushoku Tensei",
+      "title": "¡Los padres de ROXY descubren sus 3 esposas y el secreto de LARA! | Mushoku Tensei",
       "url": "https://www.youtube.com/watch?v=MjRJd9oP6TI",
       "publishedAt": "2026-11-21T03:04:48+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-21T17:29:30.966580Z",
-      "obtainedAt": "2026-11-21T17:29:31.346503Z"
+      "checkedAt": "2026-11-21T23:13:33.703748Z",
+      "obtainedAt": "2026-11-21T23:13:34.175893Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,7 +23,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-21T17:29:30.966940Z"
+      "checkedAt": "2026-11-21T23:13:33.704221Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
@@ -34,8 +34,8 @@
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-21T17:29:30.967380Z",
-      "obtainedAt": "2026-11-21T17:29:32.894755Z"
+      "checkedAt": "2026-11-21T23:13:33.704623Z",
+      "obtainedAt": "2026-11-21T23:13:35.984897Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-21T17:29:30.967772Z"
+      "checkedAt": "2026-11-21T23:13:33.705119Z"
     }
   }
 }
