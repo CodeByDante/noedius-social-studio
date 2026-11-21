@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T01:32:46.360412Z",
+  "updatedAt": "2026-11-21T09:47:37.430225Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "¿Por qué ZANOBA se negó a incinerar el cuerpo de PAX? Su fría reacción | Mushoku Tensei",
-      "url": "https://www.youtube.com/watch?v=hvJEIuoicuQ",
-      "publishedAt": "2026-11-20T18:37:12+00:00",
+      "title": "¡Los padres de ROXY descubren el secreto de LARA! | Mushoku Tensei",
+      "url": "https://www.youtube.com/watch?v=MjRJd9oP6TI",
+      "publishedAt": "2026-11-21T03:04:48+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-21T01:32:39.560961Z",
-      "obtainedAt": "2026-11-21T01:32:41.110556Z"
+      "checkedAt": "2026-11-21T09:47:31.797731Z",
+      "obtainedAt": "2026-11-21T09:47:32.560377Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-21T01:32:39.561519Z"
+      "checkedAt": "2026-11-21T09:47:31.798089Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "¿Por qué ZANOBA se negó a incinerar el cuerpo de PAX? Su fría reacció...",
-      "url": "https://www.tiktok.com/@noediusx/video/7710324899847408918",
-      "publishedAt": "2026-11-20T18:38:32Z",
+      "title": "¿Cómo reaccionaron los padres de ROXY al co nocer a RUDEUS y descubri...",
+      "url": "https://www.tiktok.com/@noediusx/video/7710455933423324438",
+      "publishedAt": "2026-11-21T03:07:31Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-21T01:32:39.562021Z",
-      "obtainedAt": "2026-11-21T01:32:41.696255Z"
+      "checkedAt": "2026-11-21T09:47:31.798405Z",
+      "obtainedAt": "2026-11-21T09:47:33.169334Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-21T01:32:39.562410Z"
+      "checkedAt": "2026-11-21T09:47:31.798829Z"
     }
   }
 }
