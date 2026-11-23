@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T19:37:15.060366Z",
+  "updatedAt": "2026-11-23T00:50:57.695628Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "¿Cómo reaccionó Zanoba cuando creyó que Julie quería comprar su libertad?",
-      "url": "https://www.youtube.com/watch?v=ncx15dpizL0",
-      "publishedAt": "2026-11-22T17:59:43+00:00",
+      "title": "¡Así fue como PERUGIUS bautizó al hijo de RUDEUS y lo llamó SALADIN! | Mushoku Tensei",
+      "url": "https://www.youtube.com/watch?v=4g0ZQV5NBzM",
+      "publishedAt": "2026-11-22T23:30:18+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-22T19:37:08.343124Z",
-      "obtainedAt": "2026-11-22T19:37:09.087027Z"
+      "checkedAt": "2026-11-23T00:50:51.829438Z",
+      "obtainedAt": "2026-11-23T00:50:52.303360Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-22T19:37:08.344689Z"
+      "checkedAt": "2026-11-23T00:50:51.829772Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "¿Cómo reaccionó Zanoba cuando creyó que Julie quería comprar su liber...",
-      "url": "https://www.tiktok.com/@noediusx/video/7711059118248725782",
-      "publishedAt": "2026-11-22T18:07:43Z",
+      "title": "¡Así fue como PERUGIUS bautizó al hijo de RUDEUS y lo llamó SALADIN! ...",
+      "url": "https://www.tiktok.com/@noediusx/video/7711061676182801686",
+      "publishedAt": "2026-11-22T23:00:00Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-22T19:37:08.344894Z",
-      "obtainedAt": "2026-11-22T19:37:10.749919Z"
+      "checkedAt": "2026-11-23T00:50:51.830061Z",
+      "obtainedAt": "2026-11-23T00:50:53.584405Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-22T19:37:08.345207Z"
+      "checkedAt": "2026-11-23T00:50:51.830495Z"
     }
   }
 }
