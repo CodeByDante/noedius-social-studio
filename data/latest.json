@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T17:40:58.726467Z",
+  "updatedAt": "2026-11-25T02:25:50.834957Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
@@ -11,8 +11,8 @@
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-24T17:40:49.441908Z",
-      "obtainedAt": "2026-11-24T17:40:49.931006Z"
+      "checkedAt": "2026-11-25T02:25:43.227042Z",
+      "obtainedAt": "2026-11-25T02:25:43.648486Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-24T17:40:49.442375Z"
+      "checkedAt": "2026-11-25T02:25:43.227434Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "Rudeus descubre que Norn está enamorada de Ruijerd | Mushoku Tensei #...",
-      "url": "https://www.tiktok.com/@noediusx/video/7711543623753420054",
-      "publishedAt": "2026-11-24T01:28:15Z",
+      "title": "Con la salida del volumen 4 de Mushoku Tensei: Redundancy (tomo final...",
+      "url": "https://www.tiktok.com/@noediusx/video/7711897991400951062",
+      "publishedAt": "2026-11-25T00:23:12Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-24T17:40:49.444858Z",
-      "obtainedAt": "2026-11-24T17:40:51.339261Z"
+      "checkedAt": "2026-11-25T02:25:43.227813Z",
+      "obtainedAt": "2026-11-25T02:25:45.490848Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-24T17:40:49.445270Z"
+      "checkedAt": "2026-11-25T02:25:43.228274Z"
     }
   }
 }
