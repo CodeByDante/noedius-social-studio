@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T12:51:51.703607Z",
+  "updatedAt": "2026-11-25T22:30:02.687840Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "Rudeus descubre que Norn está enamorada de Ruijerd | Mushoku Tensei",
-      "url": "https://www.youtube.com/watch?v=089iyuDJVPo",
-      "publishedAt": "2026-11-24T01:29:07+00:00",
+      "title": "😱🔥 ¡RUDEUS desafió a toda la IGLESIA DE MILLIS para salvar a su MADRE! | Mushoku Tensei",
+      "url": "https://www.youtube.com/watch?v=FEl06B5PZJ0",
+      "publishedAt": "2026-11-25T21:59:37+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-25T12:51:44.465139Z",
-      "obtainedAt": "2026-11-25T12:51:44.959129Z"
+      "checkedAt": "2026-11-25T22:29:56.922184Z",
+      "obtainedAt": "2026-11-25T22:29:57.363906Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-25T12:51:44.465514Z"
+      "checkedAt": "2026-11-25T22:29:56.922495Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "Con la salida del volumen 4 de Mushoku Tensei: Redundancy (tomo final...",
-      "url": "https://www.tiktok.com/@noediusx/video/7711897991400951062",
-      "publishedAt": "2026-11-25T00:23:12Z",
+      "title": "😱🔥 ¡RUDEUS desafió a toda la IGLESIA DE MILLIS para salvar a su MADRE...",
+      "url": "https://www.tiktok.com/@noediusx/video/7712232620045765910",
+      "publishedAt": "2026-11-25T22:01:30Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-25T12:51:44.465904Z",
-      "obtainedAt": "2026-11-25T12:51:45.782503Z"
+      "checkedAt": "2026-11-25T22:29:56.922849Z",
+      "obtainedAt": "2026-11-25T22:29:58.821526Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-25T12:51:44.466363Z"
+      "checkedAt": "2026-11-25T22:29:56.923976Z"
     }
   }
 }
