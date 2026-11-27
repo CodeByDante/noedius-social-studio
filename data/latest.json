@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T23:51:12.434949Z",
+  "updatedAt": "2026-11-27T08:27:18.514751Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
@@ -11,8 +11,8 @@
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-26T23:51:06.477620Z",
-      "obtainedAt": "2026-11-26T23:51:06.894578Z"
+      "checkedAt": "2026-11-27T08:27:08.908109Z",
+      "obtainedAt": "2026-11-27T08:27:09.401222Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-26T23:51:06.477968Z"
+      "checkedAt": "2026-11-27T08:27:08.908580Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "¡El día que Eris vengó la muerte de su abuelo Sauros! #MushokuTensei ...",
-      "url": "https://www.tiktok.com/@noediusx/video/7712515011737881878",
-      "publishedAt": "2026-11-26T16:17:22Z",
+      "title": "rudeus cada q llama a si patron #mushoku #tensei #orsted #rudeus",
+      "url": "https://www.tiktok.com/@noediusx/video/7712638704669543713",
+      "publishedAt": "2026-11-27T00:17:28Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-26T23:51:06.478394Z",
-      "obtainedAt": "2026-11-26T23:51:08.326115Z"
+      "checkedAt": "2026-11-27T08:27:08.908852Z",
+      "obtainedAt": "2026-11-27T08:27:11.110590Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-26T23:51:06.478703Z"
+      "checkedAt": "2026-11-27T08:27:08.909916Z"
     }
   }
 }
