@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T18:57:21.664535Z",
+  "updatedAt": "2026-11-28T01:58:10.074561Z",
   "platforms": {
     "youtube": {
       "profileUrl": "https://www.youtube.com/@Noedius",
       "status": "ok",
-      "title": "¡Eris descubre al verdadero asesino de su abuelo Sauros! | Mushoku Tensei",
-      "url": "https://www.youtube.com/watch?v=TmjCamqBdVk",
-      "publishedAt": "2026-11-26T16:27:49+00:00",
+      "title": "Rudeus y Zanoba querían hacer una muñeca… ¡y terminaron inventando los condones!",
+      "url": "https://www.youtube.com/watch?v=VhNyKpUxZOs",
+      "publishedAt": "2026-11-27T19:36:28+00:00",
       "source": "YouTube RSS",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-27T18:57:14.772287Z",
-      "obtainedAt": "2026-11-27T18:57:15.232468Z"
+      "checkedAt": "2026-11-28T01:58:01.087108Z",
+      "obtainedAt": "2026-11-28T01:58:01.823030Z"
     },
     "facebook": {
       "profileUrl": "https://www.facebook.com/Noedius/reels/",
@@ -23,19 +23,19 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-27T18:57:14.772593Z"
+      "checkedAt": "2026-11-28T01:58:01.087666Z"
     },
     "tiktok": {
       "profileUrl": "https://www.tiktok.com/@noediusx",
       "status": "ok",
-      "title": "rudeus cada q llama a si patron #mushoku #tensei #orsted #rudeus",
-      "url": "https://www.tiktok.com/@noediusx/video/7712638704669543713",
-      "publishedAt": "2026-11-27T00:17:28Z",
+      "title": "Rudeus y Zanoba querían hacer una muñeca… ¡y terminaron inventando lo...",
+      "url": "https://www.tiktok.com/@noediusx/video/7712937523986615574",
+      "publishedAt": "2026-11-27T19:36:54Z",
       "source": "Metadatos públicos · yt-dlp",
       "message": "Última publicación pública encontrada. Comprueba que corresponde a la pieza que vas a compartir.",
       "stale": false,
-      "checkedAt": "2026-11-27T18:57:14.772740Z",
-      "obtainedAt": "2026-11-27T18:57:16.580049Z"
+      "checkedAt": "2026-11-28T01:58:01.088197Z",
+      "obtainedAt": "2026-11-28T01:58:03.351313Z"
     },
     "instagram": {
       "profileUrl": "https://www.instagram.com/noedius/",
@@ -46,7 +46,7 @@
       "source": "",
       "message": "La plataforma no permitió verificar la publicación más reciente sin iniciar sesión. Pega el enlace del video para completar el texto.",
       "stale": false,
-      "checkedAt": "2026-11-27T18:57:14.772866Z"
+      "checkedAt": "2026-11-28T01:58:01.089798Z"
     }
   }
 }
